@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>CAN - Après-vente</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>CAN - Service Après-Vente</h1>
+</header>
+
+<main class="container">
+  <section class="card">
+    <h2>Charger une réservation</h2>
+
+    <label>Nom du fichier JSON :</label>
+    <input id="fileSelect" value="StructureJson.json">
+
+    <div class="row">
+      <button id="btnBoarding">Cartes d’embarquement</button>
+      <button id="btnInvoice">Facture</button>
+      <button id="btnDashboard">Tableaux de bord</button>
+    </div>
+
+    <p class="note">Assurez-vous que le fichier est dans <code>/data/StructureJson.json</code></p>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
